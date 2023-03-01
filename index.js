@@ -1,7 +1,7 @@
 const $form = document.querySelector("form");
 
 const getLeads = async (term) => {
-  const response = await fetch(`http://localhost:3333/leads/${term}`);
+  const response = await fetch(`http://192.168.0.41:3333/leads/${term}`);
 
   const leads = await response.json();
 
