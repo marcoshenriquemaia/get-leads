@@ -40,7 +40,7 @@ $form.addEventListener("submit", async (event) => {
 
   if (!term) return alert("Digite algo");
 
-  $leads.innerHTML = "Procurando... Isso pode demorar um pouco";
+  $leads.innerHTML = "Procurando... Isso pode demorar";
 
   const leads = await getLeads(term);
 
